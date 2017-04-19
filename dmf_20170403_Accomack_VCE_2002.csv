@@ -1,0 +1,195 @@
+ <uuid> Permanent URL,<dc:identifier> Permanent URL,<dc:rights> Rights ,<dct:provenance> Source Institution,<dct:references> References,<dc:creator> Author,<dc:language> Language,<dc:publisher> Publisher,<dc:relation> Relation,<dc:type> Resource type******,<dct:spatial> Spatial Coverage & Place Names,<dct:temporal> Years of Data Coverage,<dct:Issued> Date Issued,<isPartOf> Holding Dataset ,<georss:box> Extent Coordinates,<georss:point> Centroid Point,<georss:polygon> Extent Polygon,<dc:Title> Title,<dc:Description> Description,<dc:format> File format of layer data,<dc:subject> Subject,<layer:id> Layer Name-druid:vr593vj7147,<layer:modified> Layer Modification Date,<layer:Slug>,<layer:geom_type> Layer Geometry Type
+https://secure-archive.gis.vt.edu/gisdata/public/UnitedStates/Virginia/Accomack/Accomack_VCE_2002/Accomack_hydrolines.zip,https://secure-archive.gis.vt.edu/gisdata/public/UnitedStates/Virginia/Accomack/Accomack_VCE_2002/Accomack_hydrolines.zip,Public,Virginia Geographic Information Network (VGIN),,Virginia Base Mapping Program (VBMP),English,The Virginia Geographic Information Network (VGIN),,Dataset,"Accomack County, Virginia",2002,,Virginia Cooperative Extension Accomack County Data Series 2002,"37.125448, -76.137656, 38.133332, -75.114340",,,Accomack VCE Hydrolines 2002,"The hydro layer was digitized from the 2002 Virginia Base Mapping Program (VBMP) imagery. This hydro layer includes rivers, streams, ponds, lakes, and other bodies of water. Attribution of this data set is limited. It does not indicate the directional flow of water. The supplemental METADATA file included with the data contains an image below the Hydrography section that shows the hydro layer (left side of illustration) and the hydro layer superimposed on top of aerial photography (right side of the illustration). Also note that only visible water resources were digitized. (Water passing below underpasses were not digitized). This data set is the most spatially accurate available, but it does not conform to National Hydrography Dataset (NHD) specifications (due to limitations associated with attribution, water flow, segmentation, and connectivity). 
+
+Intermittent streams are likely not contained in this file. Data was only collected in canals and ditches where water was visible (using aerial photography from spring 2002. It should be noted that 2002 was an exceptionally dry spring in Virginia). 
+
+Ancillary data included in this dataset or from other sources (including the Digital Elevation Model (DEM), contour lines, and even the Digital Raster Graphic [DRG] can be integrated with this file to support the delineation of flow direction. 
+
+Spatial hydrologic features include:Streams and Rivers – Only streams with visible water will be collected. Streams will be single line up to 8 feet wide for 100 scale, or 30 feet wide for 200 and 400 scale. Double lines, representing left and right bank, will be collected where those dimensions are exceeded. 
+
+Lakes and Ponds – Lakes and ponds will not be differentiated. Only lakes and ponds with visible water will be collected. The minimum dimension for collection is 100 feet in length or width. Canals and Ditches – Canals and ditches will not be differentiated. Only canals and ditches with visible water will be collected. Canals and ditches will be single line up to 8 feet wide for 100 scale, or 30 feet wide for 200 and 400 scale. Where those dimensions are exceeded, two lines will be placed, one to represent each bank. 
+
+Swamps and Marshes – Swamps and marshes will not be differentiated. Only clearly identifiable swamps and marshes will be collected. The minimum dimension for collection is 1,000 feet in length or width. 
+
+Shorelines – Shorelines for the Atlantic Ocean and Chesapeake Bay will be collected at the visible land/water interface. If the shoreline is bordered by tidal marsh, the shoreline will be collected at the land/marsh interface, not the marsh/ water interface. Tidal marshes will be collected in Layer 4. 
+
+Data Type: Line/Polygon 
+Format: Shapefile 
+Attribution: Very limited 
+Projection Information: 
+-NAD 1983 
+-State Plane Virginia North or South  (Contingent on locality, refer to index map in the Appendix) 
+-Linear Unit: US Foot 
+Source: Virginia Geographic Information Network (VGIN)
+
+This data has been curated by the Virginia Cooperative Extension at Virginia Tech and Virginia Tech University Libraries. This data is meant for general use only. Virginia Tech’s University Library is acting as a steward for this data and any questions about its use should refer to our Terms of Use Page.",Shapefile,,druid:vt15,,vt-15,Line
+https://secure-archive.gis.vt.edu/gisdata/public/UnitedStates/Virginia/Accomack/Accomack_VCE_2002/Accomack_Contours.zip,https://secure-archive.gis.vt.edu/gisdata/public/UnitedStates/Virginia/Accomack/Accomack_VCE_2002/Accomack_Contours.zip,Public,Virginia Geospatial Extension Program,,Virginia Geospatial Extension Program,English,The Virginia Geographic Information Network (VGIN),,Dataset,"Accomack County, Virginia",2002,,Virginia Cooperative Extension Accomack County Data Series 2002,"37.125448, -76.137656, 38.133332, -75.114340",,,Accomack VCE Contours 2002,"These contours are represented as vector data (lines). Each contour line is associated with an elevation (number of feet above sea level) in the attribute database. Contours were generated from the TIN (see description under DTM on page 6 of the supplemental METADATA FILE). Note that these contours are suitable for general landscape planning and educational purposes only. They are not survey-grade quality, and are not intended to support applications that require survey-quality data. These contours should be used for general reference and educational purposes only. The contour interval is 20 feet for counties/localities that lie west of the fall line (I-95 corridor) and 10 feet for localities that lie east of the fall line (I-95). The supplemental METADATA file included with the data contains an illustration below the Contour section that shows contours (left) and contours draped over aerial photography (right).
+
+Contours are used as a visual tool to understand general topographic landscape characteristics. In addition, contours can be “queried” so that users can quickly identify areas above or below certain elevations. However, these contours have been interpolated, and are only approximate. Applications requiring precise elevation measurements will require the assistance of a professional surveyor.
+
+The Virginia Geospatial Extension Program developed the contour layer using the TIN (described under DTM on page 6 of the supplemental METADATA file). 
+
+Data Type: Line 
+Format: Shapefile 
+Attribution: Contour: values are expressed in feet 
+Projection Information: 
+-NAD 1983 
+-State Plane Virginia North or South  (Contingent on locality, refer to index map in the Appendix) 
+-Linear Unit: US Foot 
+Source: Virginia Geospatial Extension Program
+
+This data has been curated by the Virginia Cooperative Extension at Virginia Tech and Virginia Tech University Libraries. This data is meant for general use only. Virginia Tech’s University Library is acting as a steward for this data and any questions about its use should refer to our Terms of Use Page.",Shapefile,,druid:vt16,,vt-16,Line
+https://secure-archive.gis.vt.edu/gisdata/public/UnitedStates/Virginia/Accomack/Accomack_VCE_2002/Accomack_Soils.zip,https://secure-archive.gis.vt.edu/gisdata/public/UnitedStates/Virginia/Accomack/Accomack_VCE_2002/Accomack_Soils.zip,Public,US Department of Agriculture (USDA),,National Resources Conservation Service (NRCS),English,The Virginia Geographic Information Network (VGIN),,Dataset,"Accomack County, Virginia",2002-2008,,Virginia Cooperative Extension Accomack County Data Series 2002,"37.125448, -76.137656, 38.133332, -75.114340",,,Accomack VCE Soils 2002,"The SSURGO soils data are the most accurate and comprehensive federal soils products available. The levels of soils data include:
+
+-SSURGO is the most detailed county-level data. 
+-STATSGO is less detailed statewide map.
+-NATSGO is a very general soil map of the entire U.S. 
+
+The SSURGO level of soil mapping is designed for use by landowners, townships, and counties for natural resource planning and management and regional applications. It is appropriate for watershed planning and some agricultural uses. The user should be knowledgeable about soils data and their characteristics. This database is scheduled to be completed for the entire country in 2008. Approximately 85 percent of all counties in Virginia have digital SSURGO soils data available. The Soils section located in the supplemental METADATA file  includes an illustration that shows SSURGO soil data (left) and SSURGO soils data made “transparent” and superimposed over aerial photography (right). 
+
+The SSURGO soil polygons associated with the Virginia County Data Series have been permanently joined with selected attributes. Not all attributes have been joined to the spatial data. These polygon files are disseminated as Shapefiles, and may be large in size (1 to 2 MB). 
+
+Data Type: Polygon 
+Data Format: Shapefile 
+Attribution: 
+-MUSYM(Map Unit Symbol): a symbol used to identify the soil map unit on the soil map. 
+-MUKEY: A symbol created by concatenation of the soil survey area symbol (ssaid) and map unit symbol (musym). It uniquely identifies a map unit within a state. For example, ssaid 061 and musym 1 are stored as muid 061001. The muid is used as a key for linking information in the MUIR tables. 
+-SYMBOL: same as MYSYM 
+-NAME: Soil name and general slope information. 
+-KIND: Code identifying the kind of map unit: Consociation; Association; Undifferentiated Group; Complex. 
+-TTLAcres: the total number of acres by MYSYM group 
+-Class: The Prime Farmland Classification of the map unit. 
+-HEL: The highly erodible lands rating for the soil map unit. The rating is based an evaluation of the wind erosion hazard of the components of the map unit. If all components are of a single class that class applies, if not then a 2 (Potential Highly Erodible) is assigned. 
+-HEL Water: The highly erodible lands rating for the soil map unit. The rating is based an evaluation of the water erosion hazard of the components of the map unit. If all components are of a single class that class applies, if not then a 2 (Potential Highly Erodible) is assigned. 
+Projection Information: 
+-Zone: 17 or 18  (Contingent on locality, refer to UTM map in the Appendix) 
+-Units: Meters 
+-Spheroid: NAD 83 
+-Source: NRCS Geospatial data Gateway
+
+This data has been curated by the Virginia Cooperative Extension at Virginia Tech and Virginia Tech University Libraries. This data is meant for general use only. Virginia Tech’s University Library is acting as a steward for this data and any questions about its use should refer to our Terms of Use Page.",Shapefile,,druid:vt17,2008,vt-17,Polygon
+https://secure-archive.gis.vt.edu/gisdata/public/UnitedStates/Virginia/Accomack/Accomack_VCE_2002/Accomack_Slope.zip,https://secure-archive.gis.vt.edu/gisdata/public/UnitedStates/Virginia/Accomack/Accomack_VCE_2002/Accomack_Slope.zip,Public,Virginia Geospatial Extension Program,,Virginia Geospatial Extension Program,English,The Virginia Geographic Information Network (VGIN),,Dataset,"Accomack County, Virginia",2002,,Virginia Cooperative Extension Accomack County Data Series 2002,"37.125448, -76.137656, 38.133332, -75.114340",,,Accomack VCE Slope 2002,"Slope is a measurement of the incline, or the steepness, of a surface. Slope was derived from the TIN (see description under DTM on page 6 of the supplemental METADATA file). Slope was generated as a percent slope (which is the rise divided by the run multiplied by 100). The illustration to the right shows slope classifications and hydro (left side) and slope classifications with aerial photography and hydro. Slope layers are often used in site suitability analysis to support economic development, community planning or zoning, agricultural suitability analysis, precision agriculture, natural resource management, and water retention and surface water runoff modeling.
+
+The Virginia Geospatial Extension Program developed the slope layer using the TIN. It is suitable for general (regional) planning purposes and should be verified.
+
+Format: Shapefile 
+Attribution: (Refer to Table in supplemental METADATA file under Slope.)
+Projection Information: 
+-NAD 1983 
+-State Plane Virginia North or South  (Contingent on locality, refer to index map in the Appendix) 
+-Linear Unit: US Foot 
+Source: Virginia Geospatial Extension Program
+
+This data has been curated by the Virginia Cooperative Extension at Virginia Tech and Virginia Tech University Libraries. This data is meant for general use only. Virginia Tech’s University Library is acting as a steward for this data and any questions about its use should refer to our Terms of Use Page.",Shapefile,,druid:vt18,,vt-18,Polygon
+https://secure-archive.gis.vt.edu/gisdata/public/UnitedStates/Virginia/Accomack/Accomack_VCE_2002/Accomack_hydropolys.zip,https://secure-archive.gis.vt.edu/gisdata/public/UnitedStates/Virginia/Accomack/Accomack_VCE_2002/Accomack_hydropolys.zip,Public,Virginia Geographic Information Network (VGIN),,Virginia Base Mapping Program (VBMP),English,The Virginia Geographic Information Network (VGIN),,Dataset,"Accomack County, Virginia",2002,,Virginia Cooperative Extension Accomack County Data Series 2002,"37.125448, -76.137656, 38.133332, -75.114340",,,Accomack VCE Hydropoly 2002,"The hydro layer was digitized from the 2002 Virginia Base Mapping Program (VBMP) imagery. This hydro layer includes rivers, streams, ponds, lakes, and other bodies of water. Attribution of this data set is limited. It does not indicate the directional flow of water. The image below shows the hydro layer (refer to left side of illustration in supplemental METADATA file for Hydrography) and the hydro layer superimposed on top of aerial photography (refer to right side of the illustration in supplemental METADATA file for Hydrography). Also note that only visible water resources were digitized. (Water passing below underpasses was not digitized). This data set is the most spatially accurate available, but it does not conform to National Hydrography Dataset (NHD) specifications (due to limitations associated with attribution, water flow, segmentation, and connectivity).  
+
+Intermittent streams are likely not contained in this file. Data was only collected in canals and ditches where water was visible (using aerial photography from spring 2002 . It should be noted that 2002  was an exceptionally dry spring in Virginia).
+
+Ancillary data sets contained on this CD or from other sources (including the Digital Elevation Model (DEM), contour lines, and even the Digital Raster Graphic [DRG] can be integrated with this file to support the delineation of flow direction. 
+
+Spatial hydrologic features include:
+
+Streams and Rivers – Only streams with visible water will be collected. Streams will be single line up to 8 feet wide for 100 scale, or 30 feet wide for 200 and 400 scale. Double lines, representing left and right bank, will be collected where those dimensions are exceeded. 
+
+Lakes and Ponds – Lakes and ponds will not be differentiated. Only lakes and ponds with visible water will be collected. The minimum dimension for collection is 100 feet in length or width. 
+
+Canals and Ditches – Canals and ditches will not be differentiated. Only canals and ditches with visible water will be collected. Canals and ditches will be single line up to 8 feet wide for 100 scale, or 30 feet wide for 200 and 400 scale. Where those dimensions are exceeded, two lines will be placed, one to represent each bank. 
+
+Swamps and Marshes – Swamps and marshes will not be differentiated. Only clearly identifiable swamps and marshes will be collected. The minimum dimension for collection is 1,000 feet in length or width. 
+
+Shorelines – Shorelines for the Atlantic Ocean and Chesapeake Bay will be collected at the visible land/water interface. If the shoreline is bordered by tidal marsh, the shoreline will be collected at the land/marsh interface, not the marsh/water interface. Tidal marshes will be collected in Layer 4. 
+
+Data Type: Line/Polygon 
+Format: Shapefile 
+Attribution: Very limited 
+Projection Information: 
+-NAD 1983 
+-State Plane Virginia North or South  (Contingent on locality, refer to index map in the Appendix) 
+-Linear Unit: US Foot
+-Source: Virginia Geographic Information Network (VGIN)
+
+This data has been curated by the Virginia Cooperative Extension at Virginia Tech and Virginia Tech University Libraries. This data is meant for general use only. Virginia Tech’s University Library is acting as a steward for this data and any questions about its use should refer to our Terms of Use Page.",Shapefile,,druid:vt19,,vt-19,Polygon
+https://secure-archive.gis.vt.edu/gisdata/public/UnitedStates/Virginia/Accomack/Accomack_VCE_2002/Accomack_CLU.zip,https://secure-archive.gis.vt.edu/gisdata/public/UnitedStates/Virginia/Accomack/Accomack_VCE_2002/Accomack_CLU.zip,Public,Farm Service Agency through the Natural Resource Conservation Service (NRCS) Geospatial Data Gateway,www.fsa.usda.gov/FSA/apfoap p?area=home&subject=prod&topic=clu-ab,Farm Service Agency through the Natural Resource Conservation Service Geospatial Data Gateway,English,The Virginia Geographic Information Network (VGIN),,Dataset,"Accomack County, Virginia",2002,,Virginia Cooperative Extension Accomack County Data Series 2002,"37.125448, -76.137656, 38.133332, -75.114340",,,Accomack VCE Common Land Unit Boundaries 2002,"As part of its effort to assess land cover across the agricultural areas in the United States, the U.S. Department of Agriculture (USDA) has established the Common Land Unit (CLU) as a standardized GIS data layer. 
+
+The USDA defines a CLU as: “…the smallest unit of land that has a permanent, contiguous boundary, a common land cover and land management, a common owner and a common producer association.” (www.fsa.usda.gov/FSA/apfoap p?area=home&subject=prod&topic=clu-ab)
+
+This layer includes all farm fields, managed forested tracks, and other managed areas. CLU data is often used with other GIS layers to support a variety of applications including: public safety and disaster response, agriculture and natural resource management and monitoring, regional planning, economic development, and natural disaster planning and mitigation. 
+
+CLU is a vector file. The illustration provided in the CLU section on the supplemental metadata file shows CLU boundaries (left) and CLU boundaries superimposed over aerial photography (right). Note: Most of the attribution (descriptive information) associated with the CLU boundaries on this file has been deleted by the FSA to protect individual privacy. Attributes that are available to the public include field size in acres.
+
+Data Type: Vector / Polygon 
+Attribution: CalcAcres: Area in acres / polygon 
+Projection Information: 
+-Universal Trans Mercator 
+-Zone: 17 or 18  (Contingent on locality, refer to UTM map in the Appendix) 
+-Units: Meters 
+-Spheroid: NAD 83 
+Source: Farm Service Agency through the Natural Resource Conservation Service (NRCS) Geospatial data Gateway
+
+This data has been curated by the Virginia Cooperative Extension at Virginia Tech and Virginia Tech University Libraries. This data is meant for general use only. Virginia Tech’s University Library is acting as a steward for this data and any questions about its use should refer to our Terms of Use Page.",Shapefile,,druid:vt20,,vt-20,Polygon
+https://secure-archive.gis.vt.edu/gisdata/public/UnitedStates/Virginia/Accomack/Accomack_VCE_2002/Accomack_Aspect.zip,https://secure-archive.gis.vt.edu/gisdata/public/UnitedStates/Virginia/Accomack/Accomack_VCE_2002/Accomack_Aspect.zip,Public,Virginia Geospatial Extension Program,,Virginia Geospatial Extension Program,English,The Virginia Geographic Information Network (VGIN),,Dataset,"Accomack County, Virginia",2002,,Virginia Cooperative Extension Accomack County Data Series 2002,"37.125448, -76.137656, 38.133332, -75.114340",,,Accomack VCE Aspect 2002,"Aspect is the compass direction in which a topographic slope faces. The aspect layer contained in this dataset is a polygon Shapefile. This layer was generated from the TIN. The illustration below shows categorized color-coded aspect data, coded aspect, and categorized (color coded) aspect data made transparent and draped over aerial photography (right side).
+
+The Virginia Geospatial Extension Program developed the aspect layer using the TIN. It is suitable for general (regional) planning purposes. Aspect is often used for suitability analysis purposes in agriculture, economic development, and other site location applications. These data are suitable for general planning purposes only, and should be verified. 
+
+Data Type: Polygon 
+Format: Shapefile 
+Attribution: In this layer, all surfaces were categorized as being either: (refer to figure in the Aspect section of the supplemental METADATA file)
+
+Projection Information: 
+-NAD 1983 
+-State Plane Virginia North or South  (Contingent on locality, refer to index map in the Appendix) 
+-Linear Unit: US Foot 
+Source: Virginia Geospatial Extension Program
+
+This data has been curated by the Virginia Cooperative Extension at Virginia Tech and Virginia Tech University Libraries. This data is meant for general use only. Virginia Tech’s University Library is acting as a steward for this data and any questions about its use should refer to our Terms of Use Page.",Shapefile,,druid:vt21,2002,vt-21,Polygon
+https://secure-archive.gis.vt.edu/gisdata/public/UnitedStates/Virginia/Accomack/Accomack_VCE_2002/accomack_photo_2003.zip,https://secure-archive.gis.vt.edu/gisdata/public/UnitedStates/Virginia/Accomack/Accomack_VCE_2002/accomack_photo_2003.zip,Public,Natural Resource Conservation Service (NRCS) Geospatial data Gateway,,National Agricultural Imagery Program,English,The Virginia Geographic Information Network (VGIN),,Dataset,"Accomack County, Virginia",2002-2005,,Virginia Cooperative Extension Accomack County Data Series 2002,"37.125448, -76.137656, 38.133332, -75.114340",,,Accomack VCE Aerial Photography 2002,"The National Resource Conservation Service (NRCS) captured these photographs through the National Agricultural Imagery Program (NAIP). Dates differ by county, but may be as recent as 2005. All the photographs are tiled together by county to produce this seamless 2-meter resolution product. The imagery was captured during the late spring/early summer (during the leaf-on seasons). The purpose of the NAIP is to provide imagery during the agricultural growing season so that the Farm Service Agency (FSA) can provide estimates of crops and acres under cultivation. Certainly, this product can be used for other applications as well.
+
+This product is available in a universal transverse Mercator (UTM) coordinate system. The NAIP imagery provided by the Geospatial Extension Program is either a near infrared (NIR) false-color composite or true color product. NIR imagery depicts healthy vegetation (high amounts of chlorophyll activity) in bright shades of red (note the fertilized lawns in the image below). This image is available as a Mr. Sid (proprietary format that is “readable” by ArcGIS or web browser plug-in). While a majority of Virginia localities have data, the imagery may not cover all portions of every county. 
+Data Type: Raster 
+Pixel size: 1-2 Meters (contingent on year) 
+Data Format: Mr. Sid 
+Projection Information: 
+-Universal Trans Mercator 
+-Zone: 17 or 18  (Contingent on locality, refer to UTM map in the Appendix) 
+-Units: Meters 
+-Spheroid: NAD 83 
+Source: NRCS Geospatial data Gateway
+
+This data has been curated by the Virginia Cooperative Extension at Virginia Tech and Virginia Tech University Libraries. This data is meant for general use only. Virginia Tech’s University Library is acting as a steward for this data and any questions about its use should refer to our Terms of Use Page.",MrSID,,druid:vt22,2003,vt-22,raster
+https://secure-archive.gis.vt.edu/gisdata/public/UnitedStates/Virginia/Accomack/Accomack_VCE_2002/Accomack_TIN_2002.zip,https://secure-archive.gis.vt.edu/gisdata/public/UnitedStates/Virginia/Accomack/Accomack_VCE_2002/Accomack_TIN_2002.zip,Public,Virginia Geospatial Extension Program,,Center for Geospatial Technology (CGIT),English,The Virginia Geographic Information Network (VGIN),,Dataset,"Accomack County, Virginia",2002,,Virginia Cooperative Extension Accomack County Data Series 2002,"37.125448, -76.137656, 38.133332, -75.114340",,,Accomack VCE TIN 2002,"The digital terrain model was initially generated by Center for Geospatial Technology (CGIT) for the Virginia Geographic Information Network (VGIN) using the mass points and break lines from the 2002 VBMP aerial photography. This effort represents the most accurate digital terrain model (DTM) ever generated statewide for Virginia. The Triangulated Irregular Network (TIN) provides seamless coverage for each county in Virginia. TINs are used to ascertain landscape characteristics and to serve as a topographic model to support surface drapes (for imagery, etc.). Ancillary data sets are often generated from TINs. These data sets may include: slope, aspect, contours, digital elevation models, etc. Note that the DTM is appropriate for general planning purposes only. 
+
+Data Type: Tesseral 
+Format: TIN 
+Projection Information: 
+-NAD 1983 
+-State Plane Virginia North or South  (Contingent on locality, refer to index map in the Appendix) 
+-Linear Unit: US Foot 
+-Source: The Virginia Geographic Information Network (VGIN)
+
+This data has been curated by the Virginia Cooperative Extension at Virginia Tech and Virginia Tech University Libraries. This data is meant for general use only. Virginia Tech’s University Library is acting as a steward for this data and any questions about its use should refer to our Terms of Use Page.",TIN,,druid:vt24,,vt-24,raster
+https://secure-archive.gis.vt.edu/gisdata/public/UnitedStates/Virginia/Accomack/Accomack_VCE_2002/Accomack_DRG_S_VA_001.zip,https://secure-archive.gis.vt.edu/gisdata/public/UnitedStates/Virginia/Accomack/Accomack_VCE_2002/Accomack_DRG_S_VA_001.zip,Public,"The Land Information Technology Company, LTD and USGS",www.fsa.usda.gov/FSA/apfoapp?area=h ome&subject=prod&topic=clu-ab,"The Land Information Technology Company, LTD and USGS",English,The Virginia Geographic Information Network (VGIN),,Dataset,"Accomack County, Virginia",2002,,Virginia Cooperative Extension Accomack County Data Series 2002,"37.125448, -76.137656, 38.133332, -75.114340",,,Accomack VCE DRG 2002,"The digital topographic map is a United States Geological Survey (USGS) product. The original topographic maps for each county have been scanned and rectified (assigned coordinate information). The collars (the white margins along the sides of the map) have been removed. In addition, all topographic maps for a given county have been tiled together to provide seamless topographic coverage for each locality. The source scale of this product is 1: 4,000. It is available as a Mr. Sid (proprietary format that is “readable” by ArcGIS).
+
+Data Type: Raster 
+Pixel size: ~ .4 Meters 
+Data Format: Mr. Sid 
+Projection Information: 
+-Universal Trans Mercator (UTM) 
+-Zone: 17 or 18  (Contingent on locality, refer to UTM map in the Appendix) 
+-Units: Meters 
+-Spheroid: NAD 83 
+Source: NRCS Geospatial data Gateway 
+Additional Information: www.fsa.usda.gov/FSA/apfoapp?area=h ome&subject=prod&topic=clu-ab
+
+This data has been curated by the Virginia Cooperative Extension at Virginia Tech and Virginia Tech University Libraries. This data is meant for general use only. Virginia Tech’s University Library is acting as a steward for this data and any questions about its use should refer to our Terms of Use Page.",MrSID,,druid:vt26,,vt-26,raster
+https://secure-archive.gis.vt.edu/gisdata/public/UnitedStates/Virginia/Accomack/Accomack_VCE_2002/Accomack_Secondary.zip,https://secure-archive.gis.vt.edu/gisdata/public/UnitedStates/Virginia/Accomack/Accomack_VCE_2002/Accomack_Secondary.zip,Public,Virginia Department of Transportation (VDOT),,Virginia Department of Transportation (VDOT),English,The Virginia Geographic Information Network (VGIN),,Dataset,"Accomack County, Virginia",2002,,Virginia Cooperative Extension Accomack County Data Series 2002,"37.125448, -76.137656, 38.133332, -75.114340",,,Accomack VCE Secondary Roads 2002,"Countywide digital road centerline file with address, road name, and state route number attribution.
+
+This data has been curated by the Virginia Cooperative Extension at Virginia Tech and Virginia Tech University Libraries. This data is meant for general use only. Virginia Tech’s University Library is acting as a steward for this data and any questions about its use should refer to our Terms of Use Page.",Shapefile,,druid:vt27,,vt-27,Line
+https://secure-archive.gis.vt.edu/gisdata/public/UnitedStates/Virginia/Accomack/Accomack_VCE_2002/Accomack_Ramp_Other.zip,https://secure-archive.gis.vt.edu/gisdata/public/UnitedStates/Virginia/Accomack/Accomack_VCE_2002/Accomack_Ramp_Other.zip,Public,Virginia Department of Transportation (VDOT),,Virginia Department of Transportation (VDOT),English,The Virginia Geographic Information Network (VGIN),,Dataset,"Accomack County, Virginia",2002,,Virginia Cooperative Extension Accomack County Data Series 2002,"37.125448, -76.137656, 38.133332, -75.114340",,,Accomack VCE Ramp Other 2002,"Countywide digital road centerline file with address, road name, and state route number attribution.
+
+This data has been curated by the Virginia Cooperative Extension at Virginia Tech and Virginia Tech University Libraries. This data is meant for general use only. Virginia Tech’s University Library is acting as a steward for this data and any questions about its use should refer to our Terms of Use Page.",Shapefile,,druid:vt28,,vt-28,Line
+https://secure-archive.gis.vt.edu/gisdata/public/UnitedStates/Virginia/Accomack/Accomack_VCE_2002/Accomack_Primaries.zip,https://secure-archive.gis.vt.edu/gisdata/public/UnitedStates/Virginia/Accomack/Accomack_VCE_2002/Accomack_Primaries.zip,Public,Virginia Department of Transportation (VDOT),,Virginia Department of Transportation (VDOT),English,The Virginia Geographic Information Network (VGIN),,Dataset,"Accomack County, Virginia",2002,,Virginia Cooperative Extension Accomack County Data Series 2002,"37.125448, -76.137656, 38.133332, -75.114340",,,Accomack VCE Primary Roads 2002,"Countywide digital road centerline file with address, road name, and state route number attribution.
+
+This data has been curated by the Virginia Cooperative Extension at Virginia Tech and Virginia Tech University Libraries. This data is meant for general use only. Virginia Tech’s University Library is acting as a steward for this data and any questions about its use should refer to our Terms of Use Page.",Shapefile,,druid:vt29,,vt-29,Line
+https://secure-archive.gis.vt.edu/gisdata/public/UnitedStates/Virginia/Accomack/Accomack_VCE_2002/Accomack_frontage.zip,https://secure-archive.gis.vt.edu/gisdata/public/UnitedStates/Virginia/Accomack/Accomack_VCE_2002/Accomack_frontage.zip,Public,Virginia Department of Transportation (VDOT),,Virginia Department of Transportation (VDOT),English,The Virginia Geographic Information Network (VGIN),,Dataset,"Accomack County, Virginia",2002,,Virginia Cooperative Extension Accomack County Data Series 2002,"37.125448, -76.137656, 38.133332, -75.114340",,,Accomack VCE Frontage Roads 2002,"Countywide digital road centerline file with address, road name, and state route number attribution.
+
+This data has been curated by the Virginia Cooperative Extension at Virginia Tech and Virginia Tech University Libraries. This data is meant for general use only. Virginia Tech’s University Library is acting as a steward for this data and any questions about its use should refer to our Terms of Use Page.",Shapefile,,druid:vt30,,vt-30,Line
